@@ -65,7 +65,7 @@ namespace springfield_nuclear_app
 
                 meltdown_happening = false;
             } else {
-                SoundPlayer test = new SoundPlayer;
+                // SoundPlayer test = new SoundPlayer;
 
 
                 reactor1_button.BackColor = Color.Red;
@@ -78,7 +78,8 @@ namespace springfield_nuclear_app
 
                 //System.Media.SoundPlayer sound = new SoundPlayer;
 
-                reactor_status_text.Text = "Reaactors are Not Ok";
+                reactor_status_text.Text = "Reactors are Not Ok";
+                start_button.Text = "Fix reactors";
             }
         }
 
